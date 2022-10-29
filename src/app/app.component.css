@@ -5,6 +5,7 @@
 
 .corpo{
     width: 100vw;
+    height: 100em;
     background: linear-gradient(217deg, rgba(0, 174, 255, 0.8), rgba(80, 138, 245, 0) 70.71%),
             linear-gradient(127deg, rgba(108, 241, 108, 0.274), rgba(202, 255, 159, 0.829) 70.71%),
             linear-gradient(336deg, rgba(105, 90, 238, 0.8), rgba(81, 209, 248, 0) 70.71%);
