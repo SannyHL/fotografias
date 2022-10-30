@@ -52,6 +52,23 @@ main{
 .selecionarFotos:active{
     background: rgba(0, 102, 51, 0.527);
 }
+.voltar{
+    position: absolute;
+    font-size: 20px;
+    width: 10vw;
+    top: 150px;
+    left: 30px;
+    border: 2px solid rgb(0, 0, 43);
+    color: rgb(0, 0, 43);
+    border-radius: 11px;
+}
+
+.voltar:hover{
+    background: rgba(0, 0, 43, 0.527);
+}
+.voltar:active{
+    background: rgba(0, 102, 51, 0.527);
+}
 
 @media (max-width: 1075px){
     .corpo{
@@ -101,6 +118,12 @@ main{
         color: rgb(0, 0, 43);
         padding-top: 40px;
     }
+    .voltar{
+        font-size: 10px;
+        width: 15vw;
+        top: 120px;
+        left: 25px;
+    }
 }
 @media (max-width: 600px){
     .corpo{
@@ -135,7 +158,7 @@ main{
                 linear-gradient(336deg, rgba(105, 90, 238, 0.8), rgba(81, 209, 248, 0) 70.71%);
     }
     .selecionarFotos{
-        width: 30vw;
+        width: 40vw;
         height: 3vh;
         font-size: 1em;
         border: 2px solid rgb(0, 0, 43);
@@ -148,5 +171,11 @@ main{
         text-decoration: underline;
         color: rgb(0, 0, 43);
         padding-top: 40px;
+    }
+    .voltar{
+        font-size: 10px;
+        width: 15vw;
+        top: 120px;
+        left: 10px;
     }
 }

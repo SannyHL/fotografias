@@ -13,6 +13,7 @@
 			<h1 class="titulo">Fotos Erick</h1>
 		</header>
 		<main>
+			<h1 class="voltar" (click)="voltarParaMenu()" *ngIf="escondeMenu">Voltar<br>menu</h1>
 			<section class="selecao" *ngIf="!escondeMenu">
 				<h1 class="selecionarFotos" (click)="ativaFotosGestacao()" *ngIf="!escondeMenu">Gestação Erick</h1>
 				<h1 class="selecionarFotos" (click)="ativaFotosChaBebe()" *ngIf="!escondeMenu">Chá de bebê</h1>
